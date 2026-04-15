@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 📱 Phone Store React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Project Overview
 
-### `npm start`
+A modern **Phone Store Web Application** built using React.
+This project includes authentication, cart management, wishlist, and dark mode — providing a real-world e-commerce experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+* 🔐 User Authentication (Login & Register)
+* 🔑 Forgot Password (OTP simulation)
+* 🛒 Add to Cart with Quantity Control
+* ❤️ Wishlist (Add/Remove)
+* 🌙 Dark Mode Support
+* 🔍 Product Search
+* 💾 Data stored using LocalStorage
+* 💰 Discount Price Display
+* 📱 Responsive UI (Mobile Friendly)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ⚛️ React.js
+* 🎨 Bootstrap 5
+* 💻 JavaScript (ES6)
+* 🗂️ LocalStorage (for data persistence)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+> Add your screenshots inside a `screenshots` folder
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Home](./screenshots/home.png)
+![Products](./screenshots/products.png)
+![Cart](./screenshots/cart.png)
+![Login](./screenshots/login.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/Rakshitha-K123/phone-store-react.git
 
-## Learn More
+# Navigate to project
+cd phone-store-react
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the app
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Project Structure
 
-### Analyzing the Bundle Size
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── App.js
+ ├── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🎯 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* 🔗 Backend Integration (Node.js / Firebase)
+* 💳 Payment Gateway
+* 📦 Order History
+* 🔔 Notifications
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👩‍💻 Author
 
-### Deployment
+**Rakshitha K**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ⭐ Show Your Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this project, give it a ⭐ on GitHub!
